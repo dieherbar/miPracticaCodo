@@ -4,7 +4,7 @@
   padding: 0%;
 }
 body{
-    background-color: #F0F2F5/*#FAF9F5;*/
+    background-color: #e6e9ed/*#FAF9F5;*/
 }
 h1{
   font-family: Helvetica, Arial,  sans-serif;
@@ -21,7 +21,7 @@ h1{
 .navigationMenu{
   display: flex;
   flex-wrap: wrap;
-  background-color: #e4e6e9;
+  background-color: #9a9b9e;
   justify-content: flex-end;
   letter-spacing: 2px;
 }
@@ -145,9 +145,9 @@ p{
     }
   
   .nightMode{
-    background-color: #000;
+    background-color: rgba(10, 10, 10, 0.835);
     font-weight: 400;
-    color: #FAF9F5;
+    color: #ebeae7d0;
   }
   .required{
     color: #f00;
@@ -212,3 +212,4 @@ p{
     height: 10%;
     background-color: gold;
   }
+  

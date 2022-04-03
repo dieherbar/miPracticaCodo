@@ -14,7 +14,7 @@
     <div class="divClass1">
         <h2>Div 1</h2>
         <h2>P 1</h2>
-        <p> dentro de un div que lo contiene font-size del div es 2em - margin: 2px 1rem 1em auto<br>
+        <p class="parrafo"> dentro de un div que lo contiene font-size del div es 2em - margin: 2px 1rem 1em auto<br>
             <span style="color: darkgreen; font-weight: bold;">Lorem ipsum</span> dolor sit amet consectetur adipisicing
             elit. Corrupti consequuntur sunt optio facilis soluta veniam voluptatum quia nulla qui quam. Adipisci veniam
             autem tempore tempora earum repudiandae fugit dolor quis.
@@ -29,7 +29,8 @@
             iure similique, alias, corporis quibusdam? Ullam, vitae explicabo.</p>
     </div>
     <h2>P 3</h2>
-    <p style="font-size: 150%;color: rgb(50%, 20%, 50%);">p sin div que lo contenga con font-size de 150% color rgb(50%,
+    <p title="parrafo sin div que lo encierre" style="font-size: 150%;color: rgb(50%, 20%, 50%);">p sin div que lo
+        contenga con font-size de 150% color rgb(50%,
         20%, 50%) aplicado con style inline.<br>Lorem ipsum dolor sit amet.Doloribus quasi aperiam ipsam dignissimos
         veniam dicta voluptates adipisci laudantium. Saepe impedit possimus neque, labore doloremque voluptates enim
         blanditiis distinctio quis ex iure similique, alias, corporis quibusdam? Ullam, vitae explicabo.</p>
@@ -43,7 +44,8 @@
     <div>
         <h2>Div 3</h2>
         <h2>P 4</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus sunt nesciunt id vero, officia dicta qui
+        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus sunt nesciunt id vero,
+            officia dicta qui
             cum aliquid! Dolorem expedita, vero esse enim, quas id quisquam quos laudantium nemo minus voluptas
             inventore aperiam? Optio provident voluptates sit quo expedita quis. Tempora et odit libero amet maxime
             deserunt ipsa, animi dolores. Possimus minima nobis ea atque minus. A doloribus quaerat assumenda sunt ullam
@@ -57,7 +59,8 @@
         dolor sit amet consectetur adipisicing elit. Magni odit alias quis hic? Ducimus ullam, voluptas voluptatem
         numquam amet eligendi commodi beatae illo fugit ex porro eos voluptates architecto ratione!
         <h2>P 5</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus sunt nesciunt id vero, officia dicta qui
+        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus sunt nesciunt id vero,
+            officia dicta qui
             cum aliquid! Dolorem expedita, vero esse enim, quas id quisquam quos laudantium nemo minus voluptas
             inventore aperiam? Optio provident voluptates sit quo expedita quis. Tempora et odit libero amet maxime
             deserunt ipsa, animi dolores. Possimus minima nobis ea atque minus. A doloribus quaerat assumenda sunt ullam
@@ -71,27 +74,67 @@
         <h2>Div 5</h2>
         Div <br>
         <span>Acá hay un texto con color de fondo</span>
-        <p>Este es su segundo renglón</p>
+        <p class="parrafo">Este es su segundo renglón</p>
         <label for="entrada">Etiqueta Codo a Codo.</label><br>
         <input type="text" title="entrada" id="entrada"></input><br><br>
         <label for="otro">Otra Etiqueta </label><br>
         <input type="text" title="otro" id="otro"></input><br><br>
     </div>
-    <p>
+    <p class="parrafo">
         <span class="span">Span1</span>
         <span class="span">Span2</span>
         <span class="span">Span3</span>
     </p>
-<div>
-    <h2>Div 6</h2>
-    <p>Periodista: Gracias por la entrevista.</p>
-        <p class="nota editorial">Esta es una nota realizada en 2019.-</p>
-        <p class="editorial">Periodista: Como fueron sus comienzos?.</p>
-        <p class="nota">[Podés continuar leyendo esta nota en la pag.20]</p>
+    <div>
+        <h2>Div 6</h2>
+        <p class="parrafo">Periodista: Gracias por la entrevista.</p>
+        <p class="nota editorial"> class="nota editorial"Esta es una nota realizada en 2019.-</p>
+        <p class="editorial">class="editorial" Periodista: Como fueron sus comienzos?.</p>
+        <p class="nota">class="nota" [Podés continuar leyendo esta nota en la pag.20]</p>
+    </div>
+    <br> 
+    <hr><hr>
+    <h2>CSS Demo: box-sizing</h2>
+    <h3>Content Box</h3>
+    <div class="cajasPadre">
+        <h3>Parent Container</h3>
+        <div class="cajasHijas1a">
+            <h3>Child Container 1</h3>
+        </div>
+        <div class="cajasHijas1b">
+            <h3>Child Container 2</h3>
 
-</div>
-<div></div>
-<div></div>
+        </div>
+    </div>
+    <br> <hr>
+    <hr>
+    <h3>Content Box - border+padding</h3>
+    <div class="cajasPadre">
+        <h3>Parent Container</h3>
+        <div class="cajasHijas2a">
+            <h3>Child Container 1</h3>
+        </div>
+        <div class="cajasHijas2b">
+            <h3>Child Container 2</h3>
+
+        </div>
+    </div>
+    <br> <hr>
+    <hr>
+    <h3>Border Box</h3>
+    <div class="cajasPadre">
+        <h3>Parent Container</h3>
+        <div class="cajasHijas3a">
+            <h3>Child Container 1</h3>
+        </div>
+        <div class="cajasHijas3b">
+            <h3>Child Container 2</h3>
+
+        </div>
+    </div>
+    <div></div>
+
+    <br><br><br>
 </body>
 
 </html>
