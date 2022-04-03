@@ -64,58 +64,58 @@ input[title="entrada"] {
     font-style: italic;
     font-weight: bold;
     }
-    .editorial {
-    background: rgb(255, 0, 0, .25);
-    padding: 10px;
-    }
-    .editorial:before {
-    content: 'Editor: ';
-    }
-    .cajasPadre{
-        background-color: rgb(250, 234, 210);
-        border: coral solid 0.5rem;
-        width: 10%;
-        height: auto;
-        margin: 10px;
-      }
-      .cajasHijas1a{
-        background-color: #c4c9fa81;
-        box-sizing: content-box;
-        width: 100%;
-        }
-      .cajasHijas1b{
-        background-color: #c4c9fa81;
-        box-sizing: content-box;
-        width: 100%;
-        margin: 10px;
-      }
-      .cajasHijas2a{
-       box-sizing: content-box;
-        width: 100%;
-        border: solid #5B6DCD 10px;
-        background-color: #c4c9fa5b;
-        padding: 5px;
-      }
-      .cajasHijas2b{
-        box-sizing: content-box;
-         width: 100%;
-         border: solid #5B6DCD 10px;
-         background-color: #c4c9fa5b;
-         padding: 5px;
-         margin: 10px;
-       }
-      .cajasHijas3a{
-        box-sizing: border-box;
-        width: 100%;
-        border: solid #5B6DCD 10px;
-        background-color: #c4c9fa52;
-        padding: 5px;
-      }
-      .cajasHijas3b{
-        box-sizing: border-box;
-        width: 100%;
-        border: solid #5B6DCD 10px;
-        background-color: #c4c9fa52;
-        padding: 5px;
-        margin: 10px;
-      }
+.editorial {
+ background: rgb(255, 0, 0, .25);
+ padding: 10px;
+ }
+.editorial:before {
+content: 'Editor: ';
+}
+.cajasPadre{
+    background-color: rgb(250, 234, 210);
+    border: coral solid 0.5rem;
+    width: 10%;
+    height: auto;
+    margin: 10px;
+}
+.cajasHijas1a{
+background-color: #c4c9fa81;
+box-sizing: content-box;
+width: 100%;
+}
+.cajasHijas1b{
+    background-color: #c4c9fa81;
+    box-sizing: content-box;
+    width: 100%;
+    margin: 10px;
+}
+.cajasHijas2a{
+    box-sizing: content-box;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    background-color: #c4c9fa5b;
+    padding: 5px;
+}
+.cajasHijas2b{
+    box-sizing: content-box;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    background-color: #c4c9fa5b;
+    padding: 5px;
+    margin: 10px;
+}
+.cajasHijas3a{
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    background-color: #c4c9fa52;
+    padding: 5px;
+}
+.cajasHijas3b{
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    background-color: #c4c9fa52;
+    padding: 5px;
+    margin: 10px;
+}
