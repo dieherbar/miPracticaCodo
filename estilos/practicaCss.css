@@ -1,0 +1,71 @@
+*{
+    font-size: 12px;
+}
+h1 {
+    font-size :3rem;
+    font-family : verdana,arial;
+    text-align : center;
+    background-color : Teal;
+    position: sticky;
+    top: 2px;
+    margin: 0em;
+    }
+div{
+    font-size: larger;
+}
+span {
+    background-color: skyblue;
+}
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+}
+.div{
+    background-color: aqua;
+}
+.span{
+    background-color: blueviolet;
+}
+.divClass1{
+    margin: 2px 1rem 1em auto;
+    padding: 0%;
+    font-size: .5em;
+}
+.pClass1{
+    font-size : large;
+    margin: 1em auto;
+    font-weight : normal;
+    color: coral;
+}
+.divClass2{
+    font-size: 3ex;
+    color: rgb(100,0,255);
+    background-color: transparent;
+}
+ .divClass1 p{
+    font-size: 33px;
+    color: rgba(245, 55, 118, 0.6);
+} 
+/*div p{
+    font-size: 33px;
+    color: rgb(100, 240, 100);
+    font-weight: 700;
+}*/
+input[title="entrada"] {
+    color: rgb(22, 18, 22);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.nota {
+    font-style: italic;
+    font-weight: bold;
+    }
+    .editorial {
+    background: rgb(255, 0, 0, .25);
+    padding: 10px;
+    }
+    .editorial:before {
+    content: 'Editor: ';
+    }
+    

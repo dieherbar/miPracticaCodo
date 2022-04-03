@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos/siteStiles.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html">
+            <h1>Main title</h1>
+        </a>
+    </div>
+    
+<div class="formulario">
+    <label class="topLabel">Formulario de datos</label>
+    <form action="https://formspree.io/f/xwkyqdnd" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="name" id="nombre" pattern="[\w]{2,40}" title="Debe tener mas de 1 digito">
+        <br><br>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="last" id="apellido" pattern="[\w]{2,40}" title="Debe tener mas de 1 digito">
+        <br><br>
+        <label for="dni">DNI <abbr class="required" title="Required">*</abbr></label>
+        <input class="mediumInput" type="text" name="id" id="dni" pattern="\d{6,10}" title="Debe contener solo numeros y mas de 6" required>
+        <br><br>
+        <label for="birth">Fecha nacimiento</label>
+        <input class="mediumInput" type="date" name="nacimiento" id="birth">
+        <br><br>
+        <label for="correo">Email <abbr class="required" title="Required">*</abbr></label>
+        <input type="email" name="email" id="correo" required>
+        <br><br>
+        <label for="correo2">Email Alternativo</label>
+        <input type="text" name="email2" id="correo2" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            title="El formato debe ser similar a 'identificador@proveedor.ab'">
+        <br><br>
+        <label for="fotoId">Foto DNI</label>
+        <input type="file" name="fotoDni" id="fotoId" multiple>
+        <br><br>
+        <button class="send transition" type="submit">Enviar</button>
+        
+        <button class="borrar transition press" type="reset" id="borrar">Borrar el form</button>
+    </form>
+</div>
+<br><br><br><br>
+<hr>
+<div id="publicidad"><h2>Esto seria publicidad</h2></div>
+</body>
+
+</html>

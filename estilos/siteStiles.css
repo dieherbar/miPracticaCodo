@@ -1,0 +1,214 @@
+*{
+  font-size: 12px;
+  margin: 0%;
+  padding: 0%;
+}
+body{
+    background-color: #F0F2F5/*#FAF9F5;*/
+}
+h1{
+  font-family: Helvetica, Arial,  sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.header{
+    text-align: center;
+    color: #2c2c2c;
+    line-height: 4rem;
+	text-shadow: 1px 1px 2px #3dfe02; 
+  margin: 1rem;
+}
+.navigationMenu{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e4e6e9;
+  justify-content: flex-end;
+  letter-spacing: 2px;
+}
+#menu{
+  list-style: none;
+  float: left;
+  margin: 1rem;
+}
+#menu > li{
+  float: left;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+h2{
+    font-family: Helvetica, Arial,  sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #2c2c2c;
+    line-height: 3.5rem;
+    letter-spacing: 1px;
+	text-shadow: 2px 2px #558ABB;	
+}
+p{
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: normal;
+    color: #2c2c2c;
+}
+.send{
+  color:white; background-color: #166FE5;
+  height: 50px; width: 350px;
+  border-radius: 5px;
+  box-shadow: none;
+  border-style: none;
+  font-size: 2.5rem ;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.borrar{
+  background-color: #FA3E3E;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  line-height: 4rem;
+  padding: 0 1.5rem;
+  font-weight: bold;
+}
+/* .transition:hover{
+    background: radial-gradient(#f69d3c, #166FE5);
+} */
+.transition:active{
+  background-color: orange;
+}
+
+/*form {
+    /* Centrar el formulario en la página 
+    margin: 0 auto;
+    width: 400px;
+    /* Esquema del formulario 
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #f6edde; 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+ } 
+  
+  
+  
+  input,
+  textarea {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada 
+    font: 1em sans-serif;
+  
+    /* Tamaño uniforme del campo de texto 
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Hacer coincidir los bordes del campo del formulario 
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Destacado adicional para elementos que tienen el cursor 
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas 
+    vertical-align: top;
+  
+    /* Proporcionar espacio para escribir texto 
+    height: 5em;
+  }
+  
+  .button {
+    /* Alinear los botones con los campos de texto 
+    padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta 
+    list-style: none;
+  }
+  
+  button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto 
+    margin: .5em;
+  }
+  */
+  a[href^="#"] {
+    background-color: gold;
+    }
+  
+  .nightMode{
+    background-color: #000;
+    font-weight: 400;
+    color: #FAF9F5;
+  }
+  .required{
+    color: #f00;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .formulario{
+    margin: auto;
+    /*padding: 1em;*/
+    background-color: #FFFFFF;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 1em 0 0.4em #a1a1a1;
+  }
+  form{
+    padding: 1rem;
+    
+  }
+  input{
+    font: 1.3rem sans-serif;
+    width: 300px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0.3rem;
+  }
+  label {
+    /* Tamaño y alineación uniforme */
+    font-size: 1.5rem;    
+    display: flex;
+    width: 150px;
+    text-align: right;
+  }
+  button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 2rem;
+  }
+  .topLabel{
+    font: 2.5rem sans-serif;
+    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+  .mediumInput{
+    width: 35%;
+  }
+  input:focus{
+    /* Destacado adicional para elementos que tienen el cursor */
+    border-color: rgb(101, 155, 241);
+    border-width: 2px;
+  }
+  button:hover{
+    background: radial-gradient(#e66465, #9198e5);
+  }
+  #publicidad{
+    width: 100%;
+    height: 10%;
+    background-color: gold;
+  }

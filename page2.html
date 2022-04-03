@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css">
+    <title>Html Elements</title>
+</head>
+
+<body>
+    <div>
+        <h1>HTML Tags & Elements</h1>
+    </div>
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3 id="arriba">Header 3</h3>
+    <h4>Header 4</h4>
+    <h5>Header 5</h5>
+    <h6>Header 6</h6>
+    <h3>Parrafo</h3>
+    <p>
+        <b>Texto en negrita con etiqueta b</b> ahora otro <strong>texto resaltado con etiqueta strong</strong> y tambien
+        un <i>texto en italica con etiqueta i</i>
+    </p>
+    <h3>Otro parrafo</h3>
+    <p>La diferencia entre b y STRONG se podrá entender ahora. Mientras que B significa simplemente negrita y todos los
+        navegadores la interpretarán como negrita, STRONG es una etiqueta que significa que se tiene que resaltar
+        fuertemente el texto y cada navegador es el responsable de resaltarlo como desee. En la práctica STRONG coloca
+        el texto en negrita, pero podría ser que un navegador decidiese resaltar colocando negrilla, subrayado y color
+        rojo en el texto.
+    </p>
+    <u>Texto subrayado </u>cabe decir que la etiqueta U se ha quedado obsoleta, debido a que es algo que realmente se
+    debe hacer del lado del CSS, al ser básicamente un estilo.
+    <p>Subíndices y supraíndices<br>
+        Este tipo de formato <sup>Texto supraindice</sup> resulta de extremada utilidad para textos científicos
+        <sub>Texto subindices</sub>
+    </p>
+    Anidando etiquetas<br>
+    <b>Texto en negrita con <i>una parte italica</i></b>
+    <h3>Color en Html</h3>
+    <p>
+        Usando la etiquta font y el atributo color le damos color, por ejemplo <font color="#FF0000">Rojo</font> al
+        texto<br>
+        Nota: De nuevo tenemos que advertir sobre la necesidad de expresar todo lo que son estilos mediante CSS. En HTML
+        nos debemos centrar en lo que es escribir el contenido y en CSS en aplicar el estilo. Es de destacar, que el
+        color es más estilo que contenido, así que debería ir en el CSS.
+        El motivo por el cual toda la etiqueta < font> ha quedado en desuso, es justamente porque solo se utiliza para
+            aplicar un estilo.
+    </p>
+    <p>Colores seguros<br>
+        En lo que respecta a los colores, no podemos saber que tipo de pantalla va a tener la persona que nos visita y
+        la resolución de color. Por eso una buena idea es usar aquellos colores considerados seguros, que son los "Safe
+        colors", y corresponden a colores compatibles con todos los sistemas.
+    </p>
+    Paleta de colores seguros<br>
+    Imagen insertada <br>
+    <a href="https://htmlcolorcodes.com/" target="blank"><img id="paleta" src="imgs/safeColorsPallete.jpg"></a>
+    <br><a href="#arriba">Link interno a h3</a>
+    <br><a href="index.html">Link local a home</a>
+    <br><a href="http://www.google.com" target="blank">Link remoto a Google</a>
+    <br><a
+        href="mailto:psuarez@gmail.com?subject=Necesito%20información&cc=jlopez@gmail.com&bcc=mrobert@gmail.com&body=Por%20favor%20necesito%20info%20del%20producto">
+        Link tipo mail con parámetros</a>
+    <br><a href="archivos/codoACodo-Unidad 2.pdf">Descargar pdf unidad 2 codo a codo</a>
+    <div>
+        <h2>LISTAS</h2>
+        <h3>Listas Desordenadas</h3>
+        <p>Lenguajes de programación</p>
+
+        <ul>
+            <li type="circle">PHP</li>
+            <li type="disc">JAVA</li>
+            <li type="square">Python</li>
+        </ul>
+        <h3>Listas Ordenadas</h3>
+        <p>Reglas de convivencia</p>
+        <ol start="2" type="A">
+            <li>No hacer ruidos molestos
+            <li>Ser amable con los vecinos
+        </ol>
+        <h3>Listas de Definicion</h3>
+        <p>Alimentos Lácteos</p>
+        <dl>
+            <dt>Leche</dt>
+            <dd>descremada</dd>
+            <dd>entera</dd>
+            <dt>Queso</dt>
+            <dd>Fontina</dd>
+            <dd>Muzzarella</dd>
+        </dl>
+        <h3>Anidando Listas</h3>
+        <p>Ciudades del mundo</p>
+        <ul>
+            <li>Argentina</li>
+            <ol>
+                <li>Buenos Aires</li>
+                <li>Bariloche</li>
+            </ol>
+            <li>Uruguay</li>
+            <ol>
+                <li>Montevideo</li>
+                <li>Punta del Este</li>
+            </ol>
+        </ul>
+    </div>
+    <div>
+        <h2>TABLAS</h2>
+        <table>
+            <tr>
+                <th>Celda 1, header</th>
+                <th> Celda 2, header</th>
+            </tr>
+            <tr>
+                <td>Celda 1, linea 1</td>
+                <td> Celda 2, linea 1</td>
+            </tr>
+            <tr>
+                <td> Celda 1, linea 2</td>
+                <td> Celda 2, linea 2</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>IFRAME</h2>
+        <iframe name="unIframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.929931373099!2d-58.4478001841755!3d-34.58063946378553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5ebf9363d9f%3A0xa431bedea4c4a7d1!2sPlaza%20Mafalda!5e0!3m2!1sen!2sar!4v1647370506799!5m2!1sen!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">Algo no anda bien con el
+            iframe</iframe>
+    </div>
+    <br><br>
+    <h2>FORMULARIOS</h2>
+
+    <form action="formulario/procesarForm.html" method="post" enctype="text/plain">
+        <label for="txt">Label</label>
+        <input type="text" name="nombre" id="txt" placeholder="Placeholder">
+        
+        <br><br>
+        <label for="txt2">Otro texto</label>
+        <input type="text" name="apell" id="txt2" placeholder="Campo requerido" required>
+        
+        <br><br>
+        <label for="txt3">4 numeros</label>
+        <input type="text" pattern="[0-9]{4}" name="code" id="txt3">
+        <br><br>
+        <label for="pass">Password</label>
+        <input type="password" name="password" id="pass">
+        <br><br>
+        <label for="prov">Seleccione opción</label>
+        
+        <!-- (br>input[type="radio"][name="mes"][value="$"]{Enero})*12 -->
+        <select name="desplegable" id="prov">
+            <option aria-placeholder="" default hidden>Seleccione valor</option>
+            <option value="1">value 1</option>
+            <option value="2">value 2</option>
+            <option value="3">value 3</option>
+            <option value="4">value 4</option>
+            <option value="5">value 5</option>
+        </select>
+        <br><br>
+        <label for="date">Fecha a completar</label>
+        
+        <input type="date" name="fecha" id="date">
+        <br><br>
+        
+        <label for="txt4">Observaciones</label>
+        <br>
+        <textarea name="Observaciones" id="txt4" cols="75" rows="5" maxlength="100"></textarea>
+        <br><br>
+        <label for="pref">Preferencia</label>
+        <br><br>
+        <input type="radio" name="preferencia1" value="Frio" id="radio">Frio
+        <br>
+        <input type="radio" name="preferencia2" value="Calor>" id="radio">Calor
+        <br><br>
+        <label for="check">Animales</label><br>
+        <input type="checkbox" name="Perro" id="check">Perro<br>
+        <input type="checkbox" name="Gato" id="check">Gato<br>
+        <input type="checkbox" name="Canario" id="check">Canario<br>
+        <input type="checkbox" name="Peces" id="check">Peces<br>
+        <br><br>
+        <input class="button" type="submit" value="Meter balin">
+        <br><br><br>
+        <input type="reset" value="Borra el form">
+        <br><br>
+    </form>
+
+    <br><br><a href="#arriba">Subir a h3</a>
+</body>
+
+</html>
